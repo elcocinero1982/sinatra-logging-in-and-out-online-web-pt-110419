@@ -6,21 +6,7 @@ class ApplicationController < Sinatra::Base
     set :session_secret, "secret"
   end
 
-  get '/' do
-    erb :index
-  end
-
-  post '/login' do
-
-  end
-
-  get '/account' do
-
-  end
-
-  get '/logout' do
-
-  end
+  
 
 
 end
